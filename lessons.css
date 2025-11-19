@@ -1,0 +1,120 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  background: black;
+  display: block;
+  margin: 0px;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 20px 35px;
+  margin: 0px;
+  font-family: Montserrat;
+}
+
+.title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+hr {
+  margin: 0px;
+}
+
+nav {
+  margin: 0px;
+  overflow: hidden;
+  justify-content: flex-end;
+}
+
+.navigation_bar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  justify-content: flex-end;
+}
+
+.navigation_buttons {
+  display: inline-block;
+  justify-content: flex-end;
+}
+
+.active_page {
+  display: block;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+  justify-content: flex-end;
+}
+.navigation {
+  background-color: black;
+  border: 0px;
+  font-family: Montserrat;
+  font-weight: 200;
+  font-size: 15px;
+  color: white;
+  display: inline-table;
+  vertical-align: middle;
+  width: 75px;
+  margin-right: 25px;
+  justify-content: flex-end;
+}
+
+.divider {
+  display: block;
+  height: 15px;
+  background-color: black;
+}
+
+.triple {
+  display: block;
+  height: 450px;
+  background: rgb(52, 10, 100);
+  background-image: url(/Images/Calculus_Blackboard.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 10px 35px;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+p {
+  margin: 0px;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 10px 35px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+p {
+  color: white;
+}

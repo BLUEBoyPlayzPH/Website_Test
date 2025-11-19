@@ -1,0 +1,166 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  background: rgb(80, 75, 75);
+  display: block;
+  margin: 0px;
+}
+
+header {
+  font-family: Montserrat;
+  background: black;
+  color: white;
+  display: block;
+  height: 50px;
+  padding: 20px 35px;
+  margin: 0px;
+}
+
+.title {
+  color: white;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: left;
+  text-decoration: none;
+}
+
+hr {
+  margin: 0px;
+}
+
+.navdivtest {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu_bartest {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 15px;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  margin-right: 25px;
+  border: 0px;
+  font-family: Montserrat;
+  font-weight: 200;
+  font-size: 15px;
+  color: white;
+  vertical-align: middle;
+  width: 75px;
+  text-align: right;
+  text-decoration: none;
+}
+.active_page {
+  text-decoration: none;
+}
+
+.divider {
+  display: block;
+  height: 55px;
+  background-color: black;
+}
+
+.triple {
+  display: block;
+  height: 450px;
+  background: rgb(52, 10, 100);
+  background-image: url(/Images/Calculus_Blackboard.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 10px 35px;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.single {
+  background: rgb(70, 17, 131);
+  color: white;
+  padding: 10px 35px;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+p {
+  margin: 0px;
+}
+
+.lesson_access {
+  background-color: rgb(7, 117, 35);
+  border: 0px;
+  border-radius: 15px;
+  outline: 3px solid;
+  outline-color: rgb(1, 31, 8);
+}
+
+.lesson_access_label {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  height: 40px;
+  width: 340px;
+}
+
+.lesson_access_label:hover {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 26px;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  height: 40px;
+  width: 340px;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 10px 35px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+img {
+  width: 250px;
+  border-radius: 45px;
+  margin-left: 35px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+p {
+  color: white;
+}
+
+.Image {
+  margin-left: 35px;
+}
